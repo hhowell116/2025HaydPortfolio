@@ -203,7 +203,7 @@ export default function ColorAnalyzer() {
         return brightness > 128 ? '#000' : '#fff';
     };
 
-    const getCmykLabelColor = () => '#fff';
+    
 
     const getChannelColor = (channel, light = false) => {
         switch(channel) {
